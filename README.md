@@ -1,5 +1,8 @@
 # The Siren Blog UI Design
 
+The repo contains the design of the Blog Page created using React
+Run: npm install before continuing with the project to make sure all deps are downloaded
+
 ## Available Scripts
 
 In the project directory, you can run:
