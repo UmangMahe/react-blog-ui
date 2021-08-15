@@ -1,0 +1,29 @@
+
+
+[
+    {
+        "id":1,
+        "type":"main-image",
+        "title":"Title of vertical gallery",
+        "img":"/media/articles/image-3.jpeg",
+        "date":"August 21 2017",
+        "blog-type":"Travel"
+
+    },
+     {
+        "id":2,
+        "type":"small-image",
+        "title":"The soundcloud you loved is doomed",
+        "img":"/media/articles/image-4.jpeg",
+        "date":"August 21 2017",
+        "blog-type":"Food"
+     },
+     {
+        "id":3,
+        "type":"small-image",
+        "title":"The sound cloud you loved is doomed",
+        "img":"/media/articles/image-4.jpeg",
+        "date":"August 21 2017",
+        "blog-type":"Travel"
+     }
+]

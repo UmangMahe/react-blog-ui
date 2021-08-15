@@ -1,0 +1,35 @@
+.meta-container {
+    display: inline;
+    font-size: 0.87em;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+
+}
+
+.meta-container .date {
+    display: inline;
+    color: rgb(177, 177, 177);
+    font-weight: 500;
+}
+
+.meta-container .type {
+    color: rgb(54, 54, 54);
+    margin-right: 8px;
+    
+}
+
+.meta-container p{
+    display: inline;
+}
+
+.meta-container .date p{
+    padding: 2px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .meta-container {
+        font-size: 0.8em;
+    }
+    
+}

@@ -1,0 +1,15 @@
+.tags-container {
+    display: flex;
+    flex-flow: row;
+    height: 50px;
+    align-items: center;
+}
+
+.tags-container .tag {
+    padding: 6px 8px;
+    margin-right: 20px;
+    font-size: 0.8em;
+    background-color: rgba(221, 221, 221, 0.514);
+    color: rgb(168, 168, 168);
+    box-shadow: 0 0 2px 1px rgba(243, 243, 243, 0.692);
+}

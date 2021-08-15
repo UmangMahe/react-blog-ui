@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "context": "Also tagged Reactjs",
+        "img": "/media/articles/image-2.jpeg",
+        "title": "Joshua Tree Overnight Adventure",
+        "author": "Dmitry Nozhenko",
+        "author-img": "/media/img_avatar.png",
+        "date": "Aug 10, 2019",
+        "readtime": "4 min"
+    },
+    {
+        "id":2,
+        "context": "Related reads",
+        "img": "/media/articles/image-2.jpeg",
+        "title": "Joshua Tree Overnight Adventure",
+        "author": "Dmitry Nozhenko",
+        "author-img": "/media/img_avatar.png",
+        "date": "Aug 10, 2019",
+        "readtime": "4 min"
+    },
+    {
+        "id":3,
+        "context": "Related reads",
+        "img": "/media/articles/image-2.jpeg",
+        "title": "Joshua Tree Overnight Adventure",
+        "author": "Dmitry Nozhenko",
+        "author-img": "/media/img_avatar.png",
+        "date": "Aug 10, 2019",
+        "readtime": "4 min"
+    }
+]

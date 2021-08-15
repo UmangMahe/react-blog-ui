@@ -1,0 +1,38 @@
+.sidebar {
+    display: flex;
+    flex-flow: column;
+    /* background-color: red; */
+    float: right;
+    width: 30%;
+    margin-left: 40px;
+}
+
+.sidebar .advert-container{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 2px solid rgba(128, 128, 128, 0.493);
+    width: auto;
+    /* margin-bottom: 25px; */
+}
+
+.advert-container h2 {
+    margin: 0 auto;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+
+    .sidebar .advert-container {
+        display: none;
+    }
+
+    .sidebar {
+        margin: 0;
+        width: auto;
+        margin-bottom: 30px;
+    }
+    
+}

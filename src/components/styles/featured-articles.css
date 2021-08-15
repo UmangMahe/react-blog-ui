@@ -1,0 +1,184 @@
+.component-container {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 550px;
+    justify-content: space-between;
+}
+
+.component-container img {
+    border-radius: 5px;
+    box-shadow: -5px 5px 8px 0 rgba(211, 211, 211, 0.568);
+    filter: brightness(70%) contrast(90%);
+}
+
+
+.component-container .big {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    position: relative;
+   
+}
+
+
+.component-container .big img{
+    width: 850px;
+    height: 90%;
+}
+
+.component-container .small {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.small .row-image-container {
+    height: 263px;
+}
+.component-container .small img {
+    width: 410px;
+    height: 95%;
+}
+
+.big .column-image,
+.row-image-container {
+    position: relative;
+}
+
+
+.text-container {
+    width: auto;
+    position: absolute;
+}
+
+
+
+.row-image-container .title{
+    width: 90%;
+    position: relative;
+    height: 100px;
+    font-size: 1.7rem;
+    top: 12px;
+    overflow:hidden;
+    display: flex;
+    align-items:center;
+    white-space: wrap;
+    text-overflow: ellipsis;
+     
+}
+
+
+.column-image .text-container {
+    top: 55%;
+    left: 10%;
+
+}
+
+.row-image-container .text-container {
+    top: 28%;
+    left: 3%;
+}
+
+
+.column-image .text-container .text-divider {
+    width: 10%;
+    /* top: 85px; */
+}
+
+
+.row-image-container .text-container .text-divider {
+    width: 8%;
+    /* top: 150px; */
+}
+
+.text-container .title {
+    font-size: 1.8rem;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    margin-bottom: 25px;
+}
+
+.text-container .meta {
+    font-size: 0.9rem;
+    margin: 0;
+
+}
+
+.text-container .meta-container .type {
+    color: rgb(177, 177, 177);
+}
+
+.text-divider {
+    
+    
+    position: absolute;
+    height: 2.5px;
+    background-color: rgb(177, 177, 177);
+    border: 0;
+    border-radius: 20%;
+    margin: 10px 0;
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+
+    .component-container {
+        height: auto;
+        margin: 0;
+        width: 124%;
+        margin: 0 -40px;
+    }
+    .component-container .small {
+        display: none;
+    }
+
+    .component-container .big img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .component-container .big .column-image .meta-container,
+    .column-image .text-divider {
+        display: none;
+    }
+
+    .column-image .text-container {
+        top: 64%;
+    }
+    .column-image .text-container .title {
+        font-size: 1.4em;
+    }
+    .column-image .nav_dots {
+        display: flex;
+        width: auto;
+        flex-flow: column;
+        position: absolute;
+        right: 30px;
+        top: 75%;
+        justify-content: space-evenly;
+        height: 60px;
+        
+    }
+
+    .nav_dots .dots {
+        cursor: pointer;
+        border-radius: 50%;
+        height: 7px;
+        width: 7px;
+        background-color: rgb(114, 114, 114);
+    } 
+
+    .nav_dots .dots:nth-child(2){
+        background-color: white;
+    }
+    
+}
+
+
+
+
+
+
+

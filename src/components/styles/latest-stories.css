@@ -1,0 +1,112 @@
+.latest-stories-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+}
+
+.latest-stories-container .card-content {
+    height: 200px;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 40px;
+    /* padding: 40px; */
+}
+
+.latest-stories .card-content h2 {
+    font-size: 1.9em;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+
+.latest-stories-container .card-content .meta-container {
+    margin-top: 8%;
+    text-transform: uppercase;
+    font-size: 0.81em;
+    left: 0;
+    
+}
+
+.latest-stories{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-top: 0;
+    margin-right: 0;
+    padding-top: 0;
+}
+.latest-stories .vertical {
+    width: 8px;
+    height: 320px;
+    margin: 18% auto;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    /* transform: rotate(90deg); */
+}
+
+.latest-stories .vertical.hide {
+    display: none;
+}
+
+.view-more {
+    margin-left: 0;
+    margin: 20px;
+    margin-top: 30px;
+    width: 10%;
+}
+
+@media screen and (max-width: 500px) {
+
+    .latest-stories-container {
+        flex-flow: column;
+        height: 100%;
+    }
+
+    .latest-stories {
+        margin: 0;
+    }
+
+    .latest-stories .card-content {
+        margin: 0;
+        height: auto;
+    }
+
+    .latest-stories .card-content h2 {
+        font-size: 1.3em;
+        width: 90%;
+        margin: 25px 0;
+        font-weight: 500;
+    }
+
+    .latest-stories .card-content .description {
+        font-weight: 500;
+        font-size: 0.83em;
+        width: 100%;
+    }
+
+    .latest-stories-container .card-content .meta-container {
+        margin: 8% 0;
+    }
+    
+    .latest-stories .vertical {
+        display: none;
+    }
+
+    .responsive hr:nth-child(3){
+        display: none;
+    }
+
+    .view-more {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .view-more span {
+        margin-left: 10px;
+    }
+}
+

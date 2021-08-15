@@ -1,0 +1,93 @@
+[
+    {
+        "id":1,
+        "subheading":"The Latest",
+        "title":"Joshua Tree Overnight Adventure",
+        "img":"/media/articles/image-2.jpeg",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel augue faucibus, auctor arcu sed, iaculis elit. Morbi laoreet felis et arcu suscipit, nec sagittis orci pretium.",
+        "date":"August 21 2017",
+        "blog-type":"Travel"
+    },
+    {
+        "id":2,
+        "subheading":"The Latest",
+        "title":"Joshua Tree Overnight Adventure",
+        "img":"/media/articles/image-2.jpeg",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel augue faucibus, auctor arcu sed, iaculis elit. Morbi laoreet felis et arcu suscipit, nec sagittis orci pretium. ",
+        "date":"August 21 2017",
+        "blog-type":"Travel"
+    },
+    {
+        "id":3,
+        "subheading":"The Latest",
+        "title":"Joshua Tree Overnight Adventure",
+        "img":"/media/articles/image-2.jpeg",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel augue faucibus, auctor arcu sed, iaculis elit. Morbi laoreet felis et arcu suscipit, nec sagittis orci pretium. ",
+        "date":"August 21 2017",
+        "blog-type":"Travel"
+    },
+    {
+        "id":4,
+        "subheading":"Latest Articles",
+        "title":"Catch waves with an adventure guide",
+        "img":"/media/articles/vertical-gallery-cover.jpg",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel augue faucibus, auctor arcu sed, iaculis elit.",
+        "date":"August 21 2017",
+        "blog-type":"Travel"
+    },
+    {
+        "id":5,
+        "subheading":"Latest Articles",
+        "title":"Catch waves with an adventure guide",
+        "img":"/media/articles/vertical-gallery-cover.jpg",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel augue faucibus, auctor arcu sed, iaculis elit.",
+        "date":"August 21 2017",
+        "blog-type":"Travel"
+    },
+    {
+        "id":6,
+        "subheading":"Latest Articles",
+        "title":"Catch waves with an adventure guide",
+        "img":"/media/articles/vertical-gallery-cover.jpg",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel augue faucibus, auctor arcu sed, iaculis elit.",
+        "date":"August 21 2017",
+        "blog-type":"Travel"
+    },
+    {
+        "id":7,
+        "subheading":"Latest Articles",
+        "title":"Catch waves with an adventure guide",
+        "img":"/media/articles/vertical-gallery-cover.jpg",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel augue faucibus, auctor arcu sed, iaculis elit.",
+        "date":"August 21 2017",
+        "blog-type":"Travel"
+    },
+    {
+        "id":8,
+        "subheading":"Latest Stories",
+        "title":"Catch waves with an adventure guide",
+        "img":"/media/articles/vertical-gallery-cover.jpg",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel augue faucibus, auctor arcu sed, iaculis elit.iaculis elit. Morbi laoreet felis et arcu suscipit, nec sagittis orci pretium. Sed ultrices risus id nisi varius, sit amet aliquam ipsum vulputate.",
+        "date":"Today At 11:54",
+        "blog-type":"Tech"
+    },
+    {
+        "id":9,
+        "subheading":"Latest Stories",
+        "title":"Catch waves with an adventure guide",
+        "img":"/media/articles/vertical-gallery-cover.jpg",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel augue faucibus, auctor arcu sed, iaculis elit.iaculis elit. Morbi laoreet felis et arcu suscipit, nec sagittis orci pretium. Sed ultrices risus id nisi varius, sit amet aliquam ipsum vulputate.",
+        "date":"August 21 2017",
+        "blog-type":"Style"
+    },
+    {
+        "id":10,
+        "subheading":"Latest Stories",
+        "title":"Catch waves with an adventure guide",
+        "img":"/media/articles/vertical-gallery-cover.jpg",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel augue faucibus, auctor arcu sed, iaculis elit.iaculis elit. Morbi laoreet felis et arcu suscipit, nec sagittis orci pretium. Sed ultrices risus id nisi varius, sit amet aliquam ipsum vulputate.",
+        "date":"August 21 2017",
+        "blog-type":"Tech"
+    }
+
+]

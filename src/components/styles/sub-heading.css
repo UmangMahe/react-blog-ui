@@ -1,0 +1,19 @@
+.sub-heading {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+.container hr {
+    width: 60px;
+    margin: 0;
+    margin-bottom: 45px;
+    background-color: rgba(255, 0, 0, 0.5);
+    
+}
+
+@media screen and (max-width: 500px) {
+    .sub-heading {
+        font-size: 1.4em;
+    }
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "name":"Home",
+        "url-alias":"/"
+    },
+    {
+        "id":2,
+        "name":"Bollywood",
+        "url-alias":"/category/bollywood"
+    },
+    {
+        "id":3,
+        "name":"Technology",
+        "url-alias":"/category/tech"
+    },
+    {
+        "id":4,
+        "name":"Hollywood",
+        "url-alias":"/category/hollywood"
+    },
+    {
+        "id":5,
+        "name":"Travel",
+        "url-alias":"/category/travel"
+    },
+    {
+        "id":6,
+        "name":"Food",
+        "url-alias":"/category/food"
+    }
+    
+]

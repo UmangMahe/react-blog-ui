@@ -1,0 +1,21 @@
+.App{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.App.max-width {
+  width: 100%;
+}
+
+img {
+  object-fit: cover;
+}
+
+h2 {
+  color: rgba(36, 36, 36, 0.952);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+   
+}

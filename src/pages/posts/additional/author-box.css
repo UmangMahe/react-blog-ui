@@ -1,0 +1,144 @@
+.author-box-container{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author-box-container .author-box {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    font-weight: 300;
+    height: 90px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.author-box-container .social-icons {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 13px;
+    width: 17%;
+}
+
+.social-icons.disable {
+    display: none;
+}
+
+.social-icons .fab {
+    background-color: rgb(204, 204, 204);
+    color: #FFFFFF;
+    padding: 4px;
+    font-size: 0.8em;
+    border-radius: 4px;
+}
+
+.post-meta-container {
+    margin: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+.post-meta-container .date {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    font-size: 0.72em;
+}
+
+.date span {
+    padding-right: 4px;
+}
+
+.post-meta-container .written-by.disable {
+    display: none;
+}
+
+.post-meta-container h6{
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.post-meta-container p {
+    margin: 0;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: rgb(190, 190, 190);
+}
+.author-box img{
+    align-self: flex-start;
+    width: 75px;
+    height: 75px;
+    border-radius: 80%;
+}
+
+.author-box-container.bottom .author-box {
+    margin: 5px 0;
+}
+
+.author-box-container.bottom .author-box img {
+    align-self: auto;
+}
+
+.author-box-container.bottom  .written-by{
+    text-transform: uppercase;
+}
+
+.author-box-container.bottom .post-meta-container {
+    height: 95%;
+}
+
+@media screen and (max-width: 500px) {
+
+    .author-box-container {
+        position: relative;
+        height: 140px;
+        align-items: flex-end;
+    }
+
+    .author-box-container.bottom {
+        align-items: center;
+        height: 100px;
+    }
+
+    .author-box-container.bottom .author-box {
+        height: 80px;
+    }
+    .author-box-container .social-icons {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: unset;
+        width: 37%;
+    }
+
+    .author-box-container .author-box img {
+        width: 70px;
+        height: 70px;
+        align-self: center;
+    }
+
+    .post-meta-container {
+        height: 63px;
+    }
+
+    .post-meta-container h6 {
+        font-size: 1em;
+    }
+
+    .post-meta-container .date {
+        font-size: 0.82em;
+    }
+
+    .author-box-container .author-box {
+        margin-bottom: 20px;
+    }
+
+    
+}

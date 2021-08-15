@@ -1,0 +1,120 @@
+.categorytopic-container{
+    display: flex;
+    flex-flow: row;
+}
+
+.categorytopic-container .sub-heading {
+    font-size: 2em;
+}
+
+
+
+.categorytopic {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+}
+
+.category-content .content .card-content {
+    justify-content: space-between;
+    height: 160px;
+}
+
+.category-content .content .card-content h2 {
+    font-size: 1.4em;
+    width: 85%;
+}
+
+.category-content .content .card-content p {
+    height: 60px;
+    overflow:hidden;
+    word-break: break-all;
+    width: 100%;
+
+}
+
+.categorytopic .container {
+    padding: 0 25px;
+}
+
+.categorytopic .divider {
+    margin-bottom: 0;
+}
+.categorytopic .divider.hide{
+    display: none;
+}
+
+.categorytopic .content{
+    display: flex;
+    flex-flow: row;
+    width: 75%;
+    margin: 0;
+    padding: 25px;
+}
+
+.categorytopic-container .sidebar {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+
+
+.categorytopic-container .sidebar .advert-container{
+    position: relative;
+    top: 50px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .categorytopic-container{
+        display: flex;
+        flex-flow: column;
+        margin-top: 30px;
+    }
+
+    .categorytopic .container {
+        padding: 0 0;
+    }
+
+    .categorytopic-container .sub-heading {
+        font-size: 1.4em;
+    }
+
+    .categorytopic {
+        width: 100%;
+    }
+
+    .categorytopic .content {
+        width: auto;
+        padding: 0;
+        margin: 40px 0;
+    }
+
+    .category-content .content .card-content {
+        height: auto;
+    }
+    
+    
+    .categorytopic .content .card-content h2 {
+        font-size: 1.1em;
+        width: auto;
+    }
+
+    .category-content .content .card-content .description {
+        height: 30px;
+    }
+
+    .category-content .load-more {
+        flex-flow: row-reverse;
+        justify-content: flex-end;
+        margin-bottom: 30px;
+    }
+
+    .category-content .load-more span:nth-child(1){
+        display: initial;
+        margin-left: 8px;
+    }
+
+    
+}
