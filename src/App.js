@@ -1,13 +1,13 @@
 import { Component } from "react";
 import Header from './components/header'
-import {BrowserRouter, Route, Router, Switch, withRouter} from 'react-router-dom'
+import {BrowserRouter, Route, Switch, withRouter} from 'react-router-dom'
 import './App.css'
 import Home from "./pages/homepage";
 import PageNotFound from "./pages/page-not-found";
 import Category from "./pages/categories/category";
 import CategoryTopic from "./pages/categories/category-topic";
 import Posts from "./pages/posts/posts";
-import NavHeader from "./components/nav-header/nav-header";
+
 
 class App extends Component {
 

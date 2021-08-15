@@ -1,5 +1,4 @@
 import { Component } from "react";
-import Header from "../../components/header";
 import NavHeader from "../../components/nav-header/nav-header";
 import PostRender from "./post-render";
 import './posts.css'

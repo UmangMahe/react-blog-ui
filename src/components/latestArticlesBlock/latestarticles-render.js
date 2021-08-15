@@ -1,6 +1,4 @@
 import { Component } from "react";
-import { Link } from "react-router-dom";
-import {getDate, getPost} from '../../pages/path-functions'
 
 class LatestArticlesRender extends Component{
 

@@ -1,13 +1,15 @@
 import logo from './../assets/logos/logo.png'
 import './styles/header.css'
 import MenuLinks from '../data/menu-links.json'
-import { BrowserRouter, Link, NavLink, useLocation} from 'react-router-dom'
+import {NavLink, useLocation} from 'react-router-dom'
 import './styles/menu-links.css'
 import { useState} from 'react'
 
 
 
 const Header = () => {
+
+    let [menuResp, setMenuResp] = useState("navigation")
 
     function hideMenu(){
         setMenuResp(menuResp+" hidden")
@@ -30,8 +32,6 @@ const Header = () => {
         if(useLocation().pathname == '/category/posts'){
             return null
         }
-
-        let [menuResp, setMenuResp] = useState("navigation")
 
         
         return(
